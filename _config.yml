@@ -18,7 +18,7 @@ avatar: https://avatars2.githubusercontent.com/u/39654562
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: blogpocket@gmail.com
   facebook: blogpocket
   flickr:
   github: 
@@ -28,7 +28,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: blogpocket
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: channel/blogpocket
+  youtube: user/blogpocket
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
