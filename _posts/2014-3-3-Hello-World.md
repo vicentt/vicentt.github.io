@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Mi blog personal
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Hola, has llegado a mi blog personal. Haz clic en «Acerca de» si quieres saber más sobre mí. O en «Leer más» para conocer sobre qué voy a publicar aquí.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
