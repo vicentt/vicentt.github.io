@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Mi blog personal
+published: true
 ---
 
-Hola, has llegado a mi blog personal. Haz clic en «Acerca de» si quieres saber más sobre mí. O en «Leer más» para conocer sobre qué voy a publicar aquí.
+Hola, has llegado a mi blog personal. Haz clic en «Acerca de» si quieres saber más sobre mí.
 
 Esto es un miniblog en el que publicaré miniposts sobre el **backstage** de mi labor en la Red; y algo sobre mi vida fuera de ella ;)
 
