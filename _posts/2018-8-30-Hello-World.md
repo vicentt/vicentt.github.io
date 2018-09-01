@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mi blog personal
+categories: general
 published: true
 ---
 
