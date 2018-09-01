@@ -24,7 +24,7 @@ layout: default
             {% when '11' %}assign mm = "noviembre"
             {% when '12' %}assign mm = "diciembre"
     {% endcase %}
-  &mm
+  {{ mm }}
   <div class="date">
     {{ page.date | date: "%e %m %Y" }}
   </div>
