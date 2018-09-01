@@ -9,7 +9,9 @@ layout: default
     {{ content }}
   </div>
 
-  {% if %B = "August" %}{{ August }} {% endif %}
+  {% if (%B == "August") %}
+    Agosto
+  {% endif %}
   
   <div class="date">
     {{ page.date | date: "%e %B %Y" }}
