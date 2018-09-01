@@ -9,8 +9,22 @@ layout: default
     {{ content }}
   </div>
 
- 
-  
+ {% assign m = page.date | date: "%-m" %}
+    {% case m %}
+            {% when  '01' %}assign mm = "enero"
+            {% when  '02' %}assign mm = "febrero"
+            {% when  '03' %}assign mm = "marzo"
+            {% when  '04' %}assign mm = "abril"
+            {% when  '05' %}assign mm = "mayo"
+            {% when  '06' %}assign mm = "junio"
+            {% when  '07' %}assign mm = "julio"
+            {% when  '08' %}assign mm = "agosto"
+            {% when  '09' %}assign mm = "septiembre"
+            {% when '10' %}assign mm = "octubre"
+            {% when '11' %}assign mm = "noviembre"
+            {% when '12' %}assign mm = "diciembre"
+    {% endcase %}
+  &mm
   <div class="date">
     {{ page.date | date: "%e %m %Y" }}
   </div>
