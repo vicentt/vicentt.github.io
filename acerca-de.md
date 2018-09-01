@@ -22,7 +22,7 @@ Soy informático, blogger y profesor, con más de 20 años de experiencia en dep
 - [Instagram](https://www.instagram.com/blogpocket)
 - [YouTube](https://www.youtube.com/blogpocket)
 - [SoundCloud](https://www.soundcloud.com/blogpocket)
-- [iVoox](https://www.ivoox.com/podcast-ultima-cassette_sq_f1504833_1.html)
+- [Tumblr](https://laultimacassette.tumblr.com)
 
 ### Contacto
 
