@@ -7,7 +7,7 @@ published: true
 
 Este blog está hecho en GitHub Pages. Si quieres ver cómo lo he llevado a cabo, sigue leyendo.
 
-![GTMETRIX-GITHUB.jpg]({{site.baseurl}}/_posts/GTMETRIX-GITHUB.jpg)
+![GTMETRIX-GITHUB.jpg]({{site.baseurl}}/images/GTMETRIX-GITHUB.jpg)
 
 Todoslos detalles los hallarás en [este artículo](https://www.blogpocket.com/2018/09/02/tener-un-blog-con-github-y-jekyll/).
 
