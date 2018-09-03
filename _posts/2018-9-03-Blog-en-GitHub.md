@@ -9,7 +9,7 @@ Este blog está hecho en GitHub Pages. Y es un blog rápido, está optimizado pa
 
 ![GTMETRIX-GITHUB.jpg]({{site.baseurl}}/images/GTMETRIX-GITHUB.jpg)
 
-Todoslos detalles de la implementación de este blog, los hallarás en [este artículo](https://www.blogpocket.com/2018/09/02/tener-un-blog-con-github-y-jekyll/).
+Todos los detalles de la implementación de este blog, los hallarás en [este artículo](https://www.blogpocket.com/2018/09/02/tener-un-blog-con-github-y-jekyll/).
 
 Como se ve en la captura del test de rendimiento de GTMetrix, se obtiene una home (la página con los extractos de las entradas más recientes del blog) con muy buenos resultados. Pero también en las páginas de los posts individuales. Principalmente, destaca:
 
