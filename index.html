@@ -13,7 +13,7 @@ published: true
         {{ post.excerpt }}
       </div>
 
-      <span class="date"><small>Publicado el {{post.date | date: "%e-%m-%Y" }}</small></span><small>.........<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Sigue leyendo</a></small>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><small>Sigue leyendo</small></a>
     </article>
   {% endfor %}
 </div>
