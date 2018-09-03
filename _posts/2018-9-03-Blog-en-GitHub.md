@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories: general
 ---
@@ -17,5 +17,3 @@ Como se ve en la captura del test de rendimiento de GTMetrix, se obtiene una hom
 - Solo 4 peticiones. 
 
 Realmente, son valores envidiables para cualquier blog. Yo los tengo en este blog. 
-
-
