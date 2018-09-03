@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 'Blog en GitHub'
+title: 'Blog en GitHub (rápido, optimizado para móviles y solidario con el planeta)'
 categories: general
 published: true
 ---
 
-Este blog está hecho en GitHub Pages. Si quieres ver cómo lo he llevado a cabo, sigue leyendo.
+Este blog está hecho en GitHub Pages. Y es un blog rápido, está optimizado para móviles y es solidario con el planeta (debido a su reducido tamaño de página). 
 
 ![GTMETRIX-GITHUB.jpg]({{site.baseurl}}/images/GTMETRIX-GITHUB.jpg)
 
-Todoslos detalles los hallarás en [este artículo](https://www.blogpocket.com/2018/09/02/tener-un-blog-con-github-y-jekyll/).
+Todoslos detalles de la implementación de este blog, los hallarás en [este artículo](https://www.blogpocket.com/2018/09/02/tener-un-blog-con-github-y-jekyll/).
 
 Como se ve en la captura del test de rendimiento de GTMetrix, se obtiene una home (la página con los extractos de las entradas más recientes del blog) con muy buenos resultados. Principalmente, destaca:
 
