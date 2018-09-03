@@ -4,7 +4,7 @@ title: Acerca de
 permalink: /acerca-de/
 ---
 
-Mi nombre es Antonio Cambronero Sánchez. 
+Mi nombre es Antonio Cambronero Sánchez y éste es mi miniblog personal. 
 
 ### Más información
 
@@ -13,9 +13,9 @@ Soy informático, blogger y profesor, con más de 20 años de experiencia en dep
 - Fundador del blog **Blogpocket** (25-1-2001). 
 - Autor del libro: **“Manual imprescindible de Twitter”** (Ed. Anaya Multimedia, 2012).
 - Profesor del Posgrado en Comunicación Digital y Social Media, en **Inesdi Digital Business School**.
-- Investigador, Consultor, autor y Blogging Coach en **Blogpocket**.
+- Investigador, asesor, autor y Blogging Coach en **Blogpocket**.
 
-### Publico textos, podcasts y vídeos
+### Publico textos, podcasts y vídeos en:
 
 - [Blogpocket](https://www.blogpocket.com)
 - [Twitter](https://www.twitter.com/blogpocket)
