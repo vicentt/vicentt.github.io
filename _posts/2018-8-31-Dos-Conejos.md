@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Si persigues a dos conejos a la vez, los perderás a ambos
-categories: planes
+title: 'Si persigues a dos conejos a la vez, los perderás a ambos'
+categories: general
 published: true
 ---
 
@@ -16,4 +16,4 @@ Tengo un plan concreto para la temporada 18-19. Un plan basado en algunos princi
 - Eliminación de lo superfluo e innecesario.
 - Enfocarse en lo importante (pocos conejos a los que perseguir).
 
-Este blog, implementado en Github, es también uno de los primeros pasos. 
+Este blog, implementado en Github, es también uno de los primeros pasos.
