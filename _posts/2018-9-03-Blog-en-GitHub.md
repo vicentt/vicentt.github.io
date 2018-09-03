@@ -1,7 +1,8 @@
 ---
-published: true
 layout: post
+title: 'Blog en GitHub'
 categories: general
+published: true
 ---
 
 Este blog está hecho en GitHub Pages. Si quieres ver cómo lo he llevado a cabo, sigue leyendo.
