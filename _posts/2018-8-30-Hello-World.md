@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mi blog personal
+author: Antonio C.
 categories: general
 published: true
 ---
