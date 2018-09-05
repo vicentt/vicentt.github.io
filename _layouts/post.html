@@ -4,6 +4,11 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  
+   <div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
+       &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Compártelo en Twitter" href="http://twitter.com/intent/tweet?text='{{ page.title }} vía @blogpocket'&url={{ page.url | prepend: site.url }}"><span class="fab fa-twitter"></span>&nbsp;Twittéalo</a>
+
+ </div>
 
   <div class="entry">
     {{ content }}
@@ -17,10 +22,6 @@ layout: default
   &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Ve al artículo posterior" href="{{  site.baseurl }}{{  page.next.url }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Posterior</a>
 {% endif %}
   </div>
-  <div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
-       &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Compártelo en Twitter" href="http://twitter.com/intent/tweet?text='{{ page.title }} vía @blogpocket'&url={{ page.url | prepend: site.url }}"><span class="fab fa-twitter"></span>&nbsp;Twittéalo</a>
-
- </div>
  
   <div class="date" style="margin-top: 25px;">
     Por {{ page.author }} el
