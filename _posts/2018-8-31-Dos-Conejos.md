@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Si persigues a dos conejos a la vez, los perderás a ambos'
+author: Antonio C.
 categories: general
 published: true
 ---
