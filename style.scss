@@ -288,7 +288,6 @@ footer {
 @import "highlights";
 @import "svg-icons";
 .button {
-//	background-color: #13AFDF;
 	background-color: #EEEEEE;
 	border-radius: 6px;
 	border: none;
@@ -316,7 +315,7 @@ footer {
 	text-transform: uppercase;
 	width: auto;
 }
-.button:hover {
+.button-twitter:hover {
 	background-color: #FB7E29;
 	color: #fff;
 }
