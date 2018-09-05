@@ -10,8 +10,14 @@ layout: default
   </div>
   
  <div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
+   {% if page.previous %}
+  <a href="{{  site.baseurl }}{{  page.previous.url }}"><span class="fab fa-arrow-circle-left"></span>&nbsp;Anterior</a>
+{% endif %}
 <a class="button" style="font-size: 12px;" title="Compártelo en Twitter" href="http://twitter.com/intent/tweet?text='{{ page.title }} vía @blogpocket'&url={{ page.url | prepend: site.url }}"><span class="fab fa-twitter"></span>&nbsp;Twittéalo</a>
-</div>
+ {% if page.next %}
+  <a href="{{  site.baseurl }}{{  page.next.url }}"><span class="fab fa-arrow-circle-right"></span>&nbsp;Posterior</a>
+{% endif %}
+  </div>
  
   <div class="date" style="margin-top: 25px;">
     Publicado el {{ page.date | date: "%e-%m-%Y" }}
