@@ -9,9 +9,9 @@ layout: default
     {{ content }}
   </div>
   
- <p style="text-align: center;">
-<a class="button" style="font-size: 15px;" title="Compártelo en Twitter" href="http://twitter.com/intent/tweet?text='{{ page.title }} vía @blogpocket'&url={{ page.url | prepend: site.url }}"><span class="fab fa-twitter"></span>&nbsp;Twittéalo</a>
-</p>
+ <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
+<a class="button" style="font-size: 10px;" title="Compártelo en Twitter" href="http://twitter.com/intent/tweet?text='{{ page.title }} vía @blogpocket'&url={{ page.url | prepend: site.url }}"><span class="fab fa-twitter"></span>&nbsp;Twittéalo</a>
+</div>
  
   <div class="date">
     Publicado el {{ page.date | date: "%e-%m-%Y" }}
