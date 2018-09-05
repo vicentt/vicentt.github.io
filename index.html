@@ -12,8 +12,9 @@ published: true
       <div class="entry">
         {{ post.excerpt }}
       </div>
+      
+      <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><small>Sigue leyendo</small></a>
     </article>
   {% endfor %}
 </div>
