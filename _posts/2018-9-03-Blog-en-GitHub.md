@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Blog en GitHub (rápido, optimizado para móviles y solidario con el planeta)'
+author: Antonio C.
 categories: general
 published: true
 ---
