@@ -288,10 +288,10 @@ footer {
 @import "highlights";
 @import "svg-icons";
 .button {
-	background-color: #13AFDF;
+	background-color: #fff;
 	border-radius: 6px;
-	border: none;
-	color: #fff;
+	border: 2px solid #13AFDF;
+	color: #000;
 	cursor: pointer;
 	font-size: 16px;
 	padding: 14px 20px;
