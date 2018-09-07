@@ -17,21 +17,19 @@ published: true
 </div>
 
 <!-- Pagination links -->
-<div class="pagination">
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
-    </a>
+    <a class="button" style="font-size: 12px;" title="Ve a la página anterior" href="{{ paginator.previous_page_path }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Página previa</a>
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
   <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    Page: {{ paginator.page }} de {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Ve a la página siguiente" href="{{ paginator.next_page_path }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Página posterior</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
 </div>
-
