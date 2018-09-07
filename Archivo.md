@@ -9,6 +9,7 @@ permalink: /archive/
     
 
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      {{  page.date | date: '%-d'-'%-m'-'%Y' }}
      
     
   {% endfor %}
