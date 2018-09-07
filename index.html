@@ -3,16 +3,18 @@ layout: default
 published: true
 ---
 
+<div class="posts">
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+  <article class="post">
+  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+   <div class="entry">
+        {{ post.excerpt }}
+   </div>
+   <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
+  </article>
 {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
@@ -32,3 +34,4 @@ published: true
     <span class="next ">Next</span>
   {% endif %}
 </div>
+
