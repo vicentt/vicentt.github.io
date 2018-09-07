@@ -88,3 +88,7 @@ exclude:
 
 paginate: 3
 paginate_path: "/blog/page:num/"
+
+twitter:
+  username: blogpocket
+  card: summary
