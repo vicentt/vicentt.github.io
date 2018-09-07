@@ -1,3 +1,9 @@
+---
+layout: page
+title: Archivo
+permalink: /archive/
+---
+
 <div class="posts" style="text-align: center;">
   {% for post in site.posts %}
     
