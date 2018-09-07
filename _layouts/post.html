@@ -13,7 +13,8 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  
+ <br />
+  <br />
  <div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
    {% if page.previous %}
   <a class="button" style="font-size: 12px;" title="Ve al artículo anterior" href="{{  site.baseurl }}{{  page.previous.url }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Anterior</a>
@@ -22,7 +23,8 @@ layout: default
   &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Ve al artículo posterior" href="{{  site.baseurl }}{{  page.next.url }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Posterior</a>
 {% endif %}
   </div>
- 
+ <br />
+  <br />
   <div class="date" style="margin-top: 25px;">
     Por {{ page.author }} el
           {{  page.date | date: '%-d' }} de
