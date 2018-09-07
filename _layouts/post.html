@@ -44,7 +44,9 @@ layout: default
             de
             {{  page.date | date: '%Y' }}
     
-    
+       <div style="margin-top: 25px;">
+            Archivado en: {{page.categories | capitalize | join: ', '}}
+       </div>
   </div>
 
   {% include disqus.html %}
