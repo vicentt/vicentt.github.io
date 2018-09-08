@@ -3,7 +3,7 @@ layout: post
 title: Mi blog personal
 author: Antonio C.
 image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
-categories: Personal
+categories: personal
 published: true
 ---
 
