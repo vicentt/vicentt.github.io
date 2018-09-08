@@ -3,7 +3,7 @@ layout: post
 title: 'Si persigues a dos conejos a la vez, los perderás a ambos'
 author: Antonio C.
 image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
-categories: Ideas, Blogpocket
+categories: [Ideas, Blogpocket]
 published: true
 ---
 
