@@ -17,7 +17,7 @@ Pero, Rabí ¿dónde están sus muebles?
 
 ¿Y dónde estan los tuyos? replicó el sabio.
 
-Pero yo estoy de paso.
+Pero yo estoy de paso, dijo el turista.
 
 ¿Y cómo piensas que estoy yo? concluyó el Rabí.
 
