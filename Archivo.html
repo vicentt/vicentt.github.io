@@ -8,8 +8,8 @@ permalink: /archive/
   {% for post in site.posts %}
     
       <li><span>
-        {{  page.date | date: '%-d' }} 
-            {% assign m = page.date | date: '%-m' %}
+        {{  post.date | date: '%-d' }} 
+            {% assign m = post.date | date: '%-m' %}
             {% case m %} 
               {% when '1' %}ene
                 {% when '2' %}feb
@@ -24,7 +24,7 @@ permalink: /archive/
                 {% when '11' %}nov
                 {% when '12' %}dic
             {% endcase %} 
-            {{  page.date | date: '%Y' }}
+            {{  post.date | date: '%Y' }}
         </span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li> 
     
   {% endfor %}
