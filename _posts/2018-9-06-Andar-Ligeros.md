@@ -3,7 +3,7 @@ layout: post
 title: Aprender a andar ligeros
 image: /images/PERFECCION-DISENO.png
 author: Antonio C.
-categories: Ideas
+categories: ideas
 published: true
 ---
 
