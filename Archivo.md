@@ -7,9 +7,7 @@ permalink: /archive/
 <div class="posts" style="text-align: center;">
   {% for post in site.posts %}
     
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      {{  post.date | date: '%d-%m-%Y' }}
-     
+      <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li> 
     
   {% endfor %}
 </div>
