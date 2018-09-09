@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo hacer crecer tu lista de correo 1.000 suscriptores al mes
-image: /images/PERFECCION-DISENO.png
+image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
 author: Antonio C.
 categories: [ideas, blogpocket]
 published: true
