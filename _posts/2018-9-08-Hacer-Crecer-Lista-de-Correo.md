@@ -13,6 +13,6 @@ Si tienes un blog en WordPress, [MailChimp](https://www.blogpocket.com/2018/02/0
 
 Pero aquí me gustaría apuntar una interesante (o terrible, según se mire) disyuntiva: hacer crecer tu lista de correo, como vía para el crecimiento de tu proyecto; contra el límite que impone MailChimp para que el servicio deje de ser gratuito.
 
-Como efecto colateral del [cumplimiento del RGPD](https://www.blogpocket.com/2018/01/20/adaptar-formularios-rgpd/), yo tuve que volver a crear la lista de correo desde cero. Era una lista iniciada hace muchos años, así que me ha venido bien para hacer limpieza ;)
+Por otra parte, y como efecto colateral del [cumplimiento del RGPD](https://www.blogpocket.com/2018/01/20/adaptar-formularios-rgpd/), yo tuve que volver a crear la lista de correo desde cero. Era una lista iniciada hace muchos años, así que me ha venido bien para hacer limpieza ;)
 
 Aquí buenas ideas para hacer crecer tu newsletter: [How I Grew My Email List by 1000 in the last 30 Days](https://medium.com/@shauntagrimes/how-i-grew-my-email-list-by-1000-in-the-last-30-days-3cd1f221eeb0).
