@@ -3,8 +3,8 @@ layout: post
 title: ¿Por qué un blog? (desde el punto de vista del marketing)
 image: /images/434-POSIBILIDADES.png
 author: Antonio C.
-categories: ideas
-published: false
+categories: [ideas, blogpocket]
+published: true
 ---
 
 Según Techclient.com, los sitios web con blog tienen un 434 % más de posibilidades de ser altamente cualificados en los motores de búsqueda.
@@ -15,3 +15,4 @@ En [esta infografía](http://www.techclient.com/blogging-statistics/) se puede a
 
 Eso significa que tu público objetivo puede encontrarte más fácilmente si posees un blog.
 
+En Blogpocket, te enseño a entender mejor los métodos y herramientas para tener un blog rápido, seguro, preparado para el SEO y optimizado para móviles. Con el «método Blogpocket» puedes crear fácilmente un blog 100 % optimizado. Entra [aquí](https://www.blogpocket.com/2018/08/18/wpo-wordpress/)https://www.blogpocket.com/2018/08/18/wpo-wordpress/ y comprúebalo.
