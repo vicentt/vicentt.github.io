@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¿Por qué un blog? (desde el punto de vista del marketing)
+title: Cómo encontrar tu nicho de mercado
 image: /images/TU-NICHO.png
 author: Antonio C.
 categories: ideas
