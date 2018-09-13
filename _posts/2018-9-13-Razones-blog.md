@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¿Por qué un blog? (desde el punto de vista del marketing)
+title: ¿Te faltan razones para tener un blog? Aquí tienes otra más
 image: /images/434-POSIBILIDADES.png
 author: Antonio C.
 categories: [ideas, blogpocket]
