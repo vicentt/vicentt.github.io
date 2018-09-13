@@ -4,7 +4,7 @@ title: ¿Por qué un blog? (desde el punto de vista del marketing)
 image: /images/434-POSIBILIDADES.png
 author: Antonio C.
 categories: ideas
-published: true
+published: false
 ---
 
 Según Techclient.com, los sitios web con blog tienen un 434 % más de posibilidades de ser altamente cualificados en los motores de búsqueda.
