@@ -1,3 +1,12 @@
+---
+layout: post
+title: ¿Por qué un blog? (desde el punto de vista del marketing)
+image: /images/TU-NICHO.png
+author: Antonio C.
+categories: ideas
+published: false
+--
+
 Por otra parte, Corina Manea en [Blogging is Dead! Or is It?](https://medium.com/@corinamanea/blogging-is-dead-or-is-it-57c559b253e6) se pregunta si el mundo de los blogs es el mismo que hace 10 años. ¿Deberíamos usar las mismas tácticas una y otra vez? 
 
 Junto con el marketing en redes sociales, los blogs han evolucionado. Y las herramientas que usamos para los blogs también han evolucionado. Actualmente contamos con mejores herramientas para escribir, para SEO, para imágenes, para promociones, etc.
