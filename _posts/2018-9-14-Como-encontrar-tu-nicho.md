@@ -5,7 +5,7 @@ image: /images/TU-NICHO.png
 author: Antonio C.
 categories: ideas
 published: false
---
+---
 
 Por otra parte, Corina Manea en [Blogging is Dead! Or is It?](https://medium.com/@corinamanea/blogging-is-dead-or-is-it-57c559b253e6) se pregunta si el mundo de los blogs es el mismo que hace 10 años. ¿Deberíamos usar las mismas tácticas una y otra vez? 
 
