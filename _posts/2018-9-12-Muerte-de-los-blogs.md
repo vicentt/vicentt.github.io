@@ -25,7 +25,7 @@ Para poner algunos números detrás de eso, en junio de 2018 había más de 1.88
 
 ¿Te sientes un poco abrumado? ¡No! La belleza de este mundo es que hay un lugar, un espacio y un lugar para todos. Solo tienes que encontrar el tuyo. 
 
-![434-POSIBILIDADES.png]({{site.baseurl}}/images/434-POSIBILIDADES.png)
+![TU-NICHO.png]({{site.baseurl}}/images/TU-NICHO.png)
 
 Corina Manea también nos indica la forma de encontrar tu nicho de mercado: 
 
