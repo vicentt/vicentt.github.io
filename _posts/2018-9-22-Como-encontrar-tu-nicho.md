@@ -7,7 +7,9 @@ categories: ideas
 published: true
 ---
 
-Corina Manea en [Blogging is Dead! Or is It?](https://medium.com/@corinamanea/blogging-is-dead-or-is-it-57c559b253e6) se pregunta si el mundo de los blogs es el mismo que hace 10 años. ¿Deberíamos usar las mismas tácticas una y otra vez? 
+Corina Manea se pregunta si el mundo de los blogs es el mismo que hace 10 años. ¿Deberíamos usar las mismas tácticas una y otra vez? 
+
+Lo hace en un estupendo artículo: [Blogging is Dead! Or is It?](https://medium.com/@corinamanea/blogging-is-dead-or-is-it-57c559b253e6).
 
 Junto con el marketing en redes sociales, los blogs han evolucionado. Y las herramientas que usamos para los blogs también. Actualmente contamos con mejores herramientas para escribir, para SEO, para imágenes, para promociones, etc.
 
