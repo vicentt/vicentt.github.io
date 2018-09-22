@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cómo encontrar a público que te quiere escuchar
+title: Cómo encontrar al público que te quiere escuchar
 image: /images/TU-PUBLICO.png
 author: Antonio C.
 categories: ideas
