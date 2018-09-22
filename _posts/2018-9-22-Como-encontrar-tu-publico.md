@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cómo encontrar tu nicho de mercado
+title: Cómo encontrar a público que te quiere escuchar
 image: /images/TU-NICHO.png
 author: Antonio C.
 categories: ideas
@@ -21,10 +21,10 @@ Para poner algunos números detrás de eso, en junio de 2018 había más de 1.88
 
 ![TU-NICHO.png]({{site.baseurl}}/images/TU-NICHO.png)
 
-Corina Manea también nos indica la forma de encontrar tu nicho de mercado: 
+Corina Manea también nos indica la forma de encontrar a ese público que te quiere escuchar: 
 
 - Descubre lo que te gusta escribir. ¿Qué te da alegría?
 - Descubre lo que le interesa a tu tribu
-- Aprende lo que el mercado está escribiendo sobrelos dos anteriores.
+- Aprende lo que se está escribiendo sobre los dos anteriores.
 
-En la intersección de los tres (sobre qué te gusta escribir, en qué está interesado tu público y qué hay en el mercado) yace tu punto ideal, el público que te quiere escuchar, tu nicho de mercado.
+En la intersección de los tres (sobre qué te gusta escribir, en qué está interesado tu público y qué se está publicando) yace tu punto ideal, el público que te quiere escuchar.
