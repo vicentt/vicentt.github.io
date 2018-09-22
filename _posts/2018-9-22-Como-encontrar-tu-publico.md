@@ -24,7 +24,7 @@ Para poner algunos números detrás de eso, en junio de 2018 había más de 1.88
 Corina Manea también nos indica la forma de encontrar a ese público que te quiere escuchar: 
 
 - Descubre lo que te gusta escribir. ¿Qué te da alegría?
-- Descubre lo que le interesa a tu tribu
+- Descubre lo que le interesa a tu tribu.
 - Aprende lo que se está escribiendo sobre los dos anteriores.
 
 En la intersección de los tres (sobre qué te gusta escribir, en qué está interesado tu público y qué se está publicando) yace tu punto ideal, el público que te quiere escuchar.
