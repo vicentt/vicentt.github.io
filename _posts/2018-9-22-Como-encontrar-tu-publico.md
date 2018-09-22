@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo encontrar a público que te quiere escuchar
-image: /images/TU-NICHO.png
+image: /images/TU-PUBLICO.png
 author: Antonio C.
 categories: ideas
 published: true
@@ -19,7 +19,7 @@ Para poner algunos números detrás de eso, en junio de 2018 había más de 1.88
 
 ¿Te sientes un poco abrumado? ¡No! La belleza de este mundo es que hay un lugar, un espacio y un lugar para todos. Solo tienes que encontrar el tuyo. 
 
-![TU-NICHO.png]({{site.baseurl}}/images/TU-NICHO.png)
+![TU-PUBLICO.png]({{site.baseurl}}/images/TU-PUBLICO.png)
 
 Corina Manea también nos indica la forma de encontrar a ese público que te quiere escuchar: 
 
