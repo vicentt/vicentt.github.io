@@ -7,9 +7,9 @@ categories: ideas
 published: true 
 ---
 
-![cover-promocion-blogpocket-6.png]({{site.baseurl}}/images/cover-promocion-blogpocket-6.png)
-
 ... Y lo perdió gracias al malware.
+
+![cover-promocion-blogpocket-6.png]({{site.baseurl}}/images/cover-promocion-blogpocket-6.png)
 
 Mary es la desdichada protagonista del post de Sucuri, (A Little Tale About Website Cross-Contamination)[https://blog.sucuri.net/2012/03/a-little-tale-about-website-cross-contamination.html].
 
