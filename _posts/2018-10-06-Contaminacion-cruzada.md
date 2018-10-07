@@ -23,7 +23,7 @@ Pasó el tiempo, uno de los plugins tenía una vulnerabilidad y eso fue aprovech
 
 Estas semanas atrás hemos aprendido muchas cosas. Y una de ellas es que no es conveniente tener nada más que el dominio principal en tu cuenta de hosting compartido; es decir, un blog.
 
-Si quieres hacer prueba, hazlo en [plataformas como Pilvia](https://twitter.com/i/moments/1000784735205982208).
+Si quieres hacer pruebas, hazlo en [plataformas como Pilvia](https://twitter.com/i/moments/1000784735205982208).
 
 En servidores compartidos (lo más económico en hosting) es peligroso tener más de un blog en tu cuenta. Si se contamina uno, se contaminarán todos. 
 
