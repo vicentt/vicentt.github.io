@@ -4,12 +4,12 @@ title: Mary tenía un blog
 image: /images/cover-promocion-blogpocket-6.png
 author: Antonio C.
 categories: ideas
-published: false
+published: true 
 ---
 
 ![TU-PUBLICO.png]({{site.baseurl}}/images/cover-promocion-blogpocket-6.png)
 
-...Y lo perdió gracias al malware.
+... Y lo perdió gracias al malware.
 
 Mary es la desdichada protagonista del post de Sucuri, (A Little Tale About Website Cross-Contamination)[https://blog.sucuri.net/2012/03/a-little-tale-about-website-cross-contamination.html].
 
