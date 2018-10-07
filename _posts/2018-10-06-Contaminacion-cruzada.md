@@ -7,7 +7,7 @@ categories: ideas
 published: true 
 ---
 
-![TU-PUBLICO.png]({{site.baseurl}}/images/cover-promocion-blogpocket-6.png)
+![cover-promocion-blogpocket-6.png]({{site.baseurl}}/images/cover-promocion-blogpocket-6.png)
 
 ... Y lo perdió gracias al malware.
 
