@@ -17,5 +17,5 @@ A pesar de las imprecisiones anatómicas, el grabado de Durero cobró una gran p
 
 Dice [Seth Godin](https://www.blogpocket.com/2015/10/22/seth-godin-como-conseguir-que-tus-ideas-se-propaguen/) que dibujar una imagen de lo que estás construyendo y tener claro cómo lo vas a construir, para quién es, para qué sirve, a quién va a ayudar ... son pasos esenciales en tu camino hacia la construcción de una nueva realidad. Sin desanimarse, Durero dibujó una imagen sobre lo que pensó / esperaba / imaginó que podría parecer un rinoceronte. Fue tan preciso que se incluyó en los libros de texto de ciencia alemana durante cientos de años.
 
-Por cierto, el [blog de Seth Godin](https://seths.blog/), puede servirte de inspiración, a pesar de no ser -en absoluto- un blog convencional.
+Por cierto, el [blog de Seth Godin](https://seths.blog/), puede [servirte de inspiración](https://www.blogpocket.com/2015/10/25/blogs-que-sirven-de-inspiracion/), a pesar de no ser -en absoluto- un blog convencional.
 
