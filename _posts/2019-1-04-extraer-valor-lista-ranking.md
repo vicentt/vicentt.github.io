@@ -11,7 +11,7 @@ Me gusta la lista elaborada por @dknowlton1, con el Top 100 de cuentas de Twitte
 
 ![top-100-sm-2019-header.png]({{site.baseurl}}/images/top-100-sm-2019-header.png)
 
-Un ranking no deja de ser una lista, efectivamente, de personas a las que les une un denominador común. En este caso, los perfiles de Twitter pertenecen a profesionales de la comunicación digital y el marketing digital. Este Top 100, que viene a saludar 2019, se ha elaborado con datos de la herramienta BuzzSumo que, a su vez, se basa en Elasticsearch para calcular la relevancia de los perfiles.
+Un ranking no deja de ser una lista, efectivamente, de personas a las que les une un denominador común. En este caso, los perfiles de Twitter pertenecen a profesionales de la comunicación digital y el marketing digital. [Este top 100](https://kpsdigitalmarketing.co.uk/2019/01/03/social-media-marketing-2019/), que viene a saludar 2019, se ha elaborado con datos de la herramienta BuzzSumo que, a su vez, se basa en Elasticsearch para calcular la relevancia de los perfiles.
 
 La segunda razón, por la que me gusta, es la propuesta que se hace para extraer valor de la lista. 
 
