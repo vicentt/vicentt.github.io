@@ -7,6 +7,8 @@ categories: blogpocket
 published: true 
 ---
 
+Lo primero es agradecer a [Dan Knowlton](https://kpsdigitalmarketing.co.uk/author/kpsdigit_user1/) por el trabajo realizado para obtener este ranking.
+
 Me gusta la lista elaborada por @dknowlton1, con el Top 100 de cuentas de Twitter de Social Media Marketing, por dos razones: la primera, porque aparezco yo 😉 .
 
 ![top-100-sm-2019-header.png]({{site.baseurl}}/images/top-100-sm-2019-header.png)
