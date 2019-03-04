@@ -4,7 +4,7 @@ title: Cómo encontrar al público que te quiere escuchar
 image: /images/TU-PUBLICO.png
 author: Antonio C.
 categories: ideas
-published: true
+published: false 
 ---
 
 Corina Manea se pregunta si el mundo de los blogs es el mismo que hace 10 años. ¿Deberíamos usar las mismas tácticas una y otra vez? 
