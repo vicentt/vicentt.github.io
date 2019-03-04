@@ -4,7 +4,7 @@ title: Cómo hacer crecer tu lista de correo 1.000 suscriptores al mes
 image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
 author: Antonio C.
 categories: [ideas, blogpocket]
-published: true
+published: false 
 ---
 
 En Blogpocket, utilizo MailChimp para gestionar mi lista de correo. 
