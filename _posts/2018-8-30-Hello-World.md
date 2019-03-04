@@ -4,7 +4,7 @@ title: Mi blog personal
 author: Antonio C.
 image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
 categories: personal
-published: true
+published: false 
 ---
 
 Hola, has llegado a mi blog personal. Haz clic en «Acerca de» si quieres saber más sobre mí.
