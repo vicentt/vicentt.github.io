@@ -4,7 +4,7 @@ title: Mary tenía un blog
 image: /images/cover-promocion-blogpocket-6.png
 author: Antonio C.
 categories: ideas
-published: true 
+published: false 
 ---
 
 ... Y lo perdió gracias al malware.
