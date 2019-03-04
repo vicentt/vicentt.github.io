@@ -34,6 +34,19 @@ La respuesta es que cada vez que se obtiene un objeto **HttpClient** de la facto
 Este IHttpMessageHandlers que agrupará varias instancias de **HttpClient** asociadas a un servicio concreto tienen un tiempo de refresco de 2 minutos. Después de los cuales renovarán las conexiones de las instancias de **HttpClient** que agrupen.
 Esta configuración es manejable por nosotros si así lo deseamos pero eso llegará mas adelante.
 
+Y sin mas pasamos a una pequeña parte de código con la que ilustrar el ejemplo mas básico de uso:
+
+SPOILER:Nunca la vamos a usar así
+
+Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
+
+`services.AddHttpClient();`
+
+Esta invocación registrara (detras del telon) unos cuantos servicios entre los que está una implementación de IClientFactory
+
+En nuestro ValuesController lo usaremos así:
+
+<script src="https://gist.github.com/vicentt/09872bd8e3f892b4238c9b3ae823dcd7.js"></script>
 
 
 
@@ -41,4 +54,3 @@ Esta configuración es manejable por nosotros si así lo deseamos pero eso llega
 
 
 
-Some text with an inline `code` snippet
