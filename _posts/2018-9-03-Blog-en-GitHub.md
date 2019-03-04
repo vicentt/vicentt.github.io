@@ -4,7 +4,7 @@ title: 'Blog en GitHub (rápido, optimizado para móviles y solidario con el pla
 author: Antonio C.
 image: /images/GTMETRIX-GITHUB.jpg
 categories: proyectos
-published: true
+published: false 
 ---
 
 Este blog está hecho en GitHub Pages. Y es un blog rápido, está optimizado para móviles y es solidario con el planeta (debido a su reducido tamaño de página). 
