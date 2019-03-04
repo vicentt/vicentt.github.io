@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Antonio Cambronero
+name: Vicente José Moreno Escobar
 
 # Short bio or description (displayed in the header)
-description: Informático, blogger y profesor.
+description: It's Awesome!!!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/YO-70x70.png
@@ -18,15 +18,15 @@ avatar: /images/YO-70x70.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 
+  email: vj.moreno@gmail.com
   facebook: 
   flickr:
-  github: 
+  github: https://github.com/vicentt/
   instagram: blogpocket
-  linkedin:
+  linkedin: https://www.linkedin.com/in/vj-moreno/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: blogpocket
+  twitter: vjmoreno_madrid
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: user/blogpocket
   googleplus: # anything in your profile username that comes after plus.google.com/
