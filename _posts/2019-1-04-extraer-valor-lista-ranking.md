@@ -4,7 +4,7 @@ title: ¿Cómo extraer valor de la lista de un ranking de influencers?
 image: /images/top-100-sm-2019-header.png
 author: Antonio C.
 categories: blogpocket
-published: true
+published: false 
 ---
 
 Lo primero es agradecer a [Dan Knowlton](https://kpsdigitalmarketing.co.uk/author/kpsdigit_user1/) por el trabajo realizado para obtener este ranking.
