@@ -12,7 +12,7 @@ published: true
 Nos ayudará resolver algunos problemas al utilizar HttpClient.
 
 ### Problemas de la clase original HttpClient: ###
-!(/images/aspnetcore.png)
+![netcore](/images/aspnetcore.png)
 
 Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, en muchas ocasiones no la usamos correctamente:
 
