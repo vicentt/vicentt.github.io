@@ -6,15 +6,13 @@ author: Vicente José Moreno Escobar
 categories: ASP.NET-Core
 published: true 
 ---
-
+![netcore](/images/aspnetcore.png)
 > HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. 
 
-Nos ayudará resolver algunos problemas al utilizar HttpClient.
 
 ### Problemas de la clase original HttpClient: ###
-![netcore](/images/aspnetcore.png)
 
-Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, en muchas ocasiones no la usamos correctamente:
+Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, *en muchas ocasiones no es utilizada correctamente*:
 
 Debemos partir del hecho de que **el sistema asigna un distinto socket a cada instancia HttpClient**. Así que el crear múltiples instancias de **HttpClient** según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas.
 
