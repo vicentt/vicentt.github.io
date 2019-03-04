@@ -4,7 +4,7 @@ title: El rinoceronte de Albrecht Dürer
 image: /images/rinoceronte-durero-1515.png
 author: Antonio C.
 categories: ideas
-published: true 
+published: false 
 ---
 
 Albrecht Dürer es el artista más famoso del Renacimiento alemán, conocido en todo el mundo por sus pinturas, dibujos, grabados y escritos teóricos sobre arte. 
