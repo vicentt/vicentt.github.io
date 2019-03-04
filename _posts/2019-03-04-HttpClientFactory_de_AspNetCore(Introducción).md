@@ -34,7 +34,10 @@ Esta configuración es manejable por nosotros si así lo deseamos pero eso llega
 
 Y sin mas pasamos a una pequeña parte de código con la que ilustrar el ejemplo mas básico de uso:
 
->! SPOILER: Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
+<details> 
+  <summary>SPOILER</summary>
+   A1: Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
+</details>
 
 Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
 
