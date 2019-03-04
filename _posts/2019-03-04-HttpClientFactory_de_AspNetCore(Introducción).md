@@ -13,9 +13,13 @@ Nos ayudará resolver algunos problemas al utilizar HttpClient.
 
 ### Problemas de la clase original HttpClient: ###
 
-Aunque es una clase extremadamente común y muy fácil de utilizar, en muchas ocasiones, no la estamos usando correctamente:
+Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, en muchas ocasiones no la usamos correctamente:
 
-Debemos partir del hecho de que el sistema asigna un distinto socket a cada instancia HttpClient. Así que el crear múltiples instancias de HttpClient según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas. 
-Aunque la clase HttpClient es disposable, tampoco es buena idea usarla mediant using ya que el socket tampoco es liberando cuando abandonamos el bloque. Podemos estar  causando un problema denominado "agotamiento de socket"
+Debemos partir del hecho de que **el sistema asigna un distinto socket a cada instancia HttpClient**. Así que el crear múltiples instancias de **HttpClient** según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas.
+
+Aunque la clase HttpClient es disposable, tampoco es buena idea usarla mediant ***using*** ya que el socket tampoco es liberando cuando abandonamos el bloque. 
+
+En ambos casos podemos estar causando un problema denominado "agotamiento de socket" ([link](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/) )
+
 
 Some text with an inline `code` snippet
