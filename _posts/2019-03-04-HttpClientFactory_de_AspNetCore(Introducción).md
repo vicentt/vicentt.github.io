@@ -9,8 +9,7 @@ published: true
 ![netcore](/images/aspnetcore.png)
 > HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. 
 
-
-### Problemas de la clase original HttpClient: ###
+#### Problemas de la clase original HttpClient: ####
 
 Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, *en muchas ocasiones no es utilizada correctamente*:
 
@@ -24,7 +23,7 @@ Incluso en el caso de estar utilizando **HttpClient** mediante la creación de o
 
 Por todo esto y por mas cosas, .NET Core 2.1 nos ofrece una nueva factoría llamada **HttpClientFactory** mediante la cual vamos a poder manejar nuestros dichosos **HttpClient**
 
-Hay un detalle que es remarcable en cuanto al uso de la factoría:
+#### Hay un detalle que es remarcable en cuanto al uso de la factoría: ####
 
 Si antes decíamos que crear uno cada vez esta mal y que crearlos de manera *“estática”* tambien esta mal ¿Como y que hace esta factoría?
 
@@ -35,7 +34,7 @@ Esta configuración es manejable por nosotros si así lo deseamos pero eso llega
 
 Y sin mas pasamos a una pequeña parte de código con la que ilustrar el ejemplo mas básico de uso:
 
-SPOILER:Nunca la vamos a usar así
+>! SPOILER: Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
 
 Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
 
