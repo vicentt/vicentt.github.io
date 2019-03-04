@@ -17,3 +17,5 @@ Aunque es una clase extremadamente común y muy fácil de utilizar, en muchas oc
 
 Debemos partir del hecho de que el sistema asigna un distinto socket a cada instancia HttpClient. Así que el crear múltiples instancias de HttpClient según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas. 
 Aunque la clase HttpClient es disposable, tampoco es buena idea usarla mediant using ya que el socket tampoco es liberando cuando abandonamos el bloque. Podemos estar  causando un problema denominado "agotamiento de socket"
+
+Some text with an inline `code` snippet
