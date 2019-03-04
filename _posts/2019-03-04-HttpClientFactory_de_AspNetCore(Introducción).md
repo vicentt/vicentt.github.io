@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HttpClientFactory de Asp.Net Core 2.1 (Introducción)
-image: /images/cover-promocion-blogpocket-6.png
+image: /images/aspnetcore.png
 author: Vicente José Moreno Escobar
 categories: ASP.NET-Core
 published: true 
