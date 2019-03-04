@@ -7,9 +7,9 @@ categories: ASP.NET Core
 published: true 
 ---
 
-== HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. ==
+> HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. 
 
-== Nos ayudará resolver algunos problemas al utilizar HttpClient. ==
+Nos ayudará resolver algunos problemas al utilizar HttpClient.
 
 ### Problemas de la clase original HttpClient: ###
 
