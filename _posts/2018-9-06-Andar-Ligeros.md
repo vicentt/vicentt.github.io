@@ -4,7 +4,7 @@ title: Aprender a andar ligeros
 image: /images/PERFECCION-DISENO.png
 author: Antonio C.
 categories: ideas
-published: true
+published: false 
 ---
 
 Cuentan que un turista en Israel quiso conocer al célebre rabino Hilen El Sabio. 
