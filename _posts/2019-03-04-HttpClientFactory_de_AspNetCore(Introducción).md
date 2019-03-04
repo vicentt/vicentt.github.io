@@ -48,9 +48,13 @@ En nuestro ValuesController lo usaremos así:
 
 <script src="https://gist.github.com/vicentt/09872bd8e3f892b4238c9b3ae823dcd7.js"></script>
 
+Aquí estamos añadiendo una dependencia a IHttpClientFactory en nuestro constructor que será inyectada por el sistema de inyección de dependencias. Con IHttpClientFactory que nos es inyectada podemos pedir nuevos HttpClients.
 
+En nuestra acción Get estamos usando HttpClientFactory para crear un nuevo cliente y a partir de aquí podremos hacer uso de él.
 
+En siguientes post veremos maneras mas avanzadas de usar esta factoría asi como las cosas tan interesantes que nos permite realizar.
 
+[Docu Microsoft](https://docs.microsoft.com/es-es/dotnet/standard/microservices-architecture/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
 
 
 
