@@ -13,9 +13,9 @@ published: true
 
 Aunque **HttpClient** es una clase extremadamente común y muy fácil de utilizar, *en muchas ocasiones no es utilizada correctamente*:
 
-Debemos partir del hecho de que **el sistema asigna un distinto socket a cada instancia HttpClient**. Así que el crear múltiples instancias de **HttpClient** según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas.
+Debemos partir del hecho de que **el sistema asigna un distinto socket a cada instancia HttpClient**. Dado este hecho, crear múltiples instancias de **HttpClient** según las vamos necesitando no es buena idea debido a que los sockets subyacentes no se liberan de forma inmediata cuando las instancias dejan de ser usadas.
 
-Aunque la clase HttpClient es disposable, tampoco es buena idea usarla mediant ***using*** ya que el socket tampoco es liberando cuando abandonamos el bloque. 
+Aunque la clase HttpClient es IDisposable(Descartable), tampoco es buena idea usarla mediante bloques ***using*** ya que el socket tampoco es liberando cuando abandonamos el bloque. 
 
 En ambos casos podemos estar causando un problema denominado "agotamiento de socket" [You're using HttpClient wrong and it is destabilizing your software](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/)
 
@@ -25,9 +25,9 @@ Por todo esto y por mas cosas, .NET Core 2.1 nos ofrece una nueva factoría llam
 
 #### Hay un detalle que es remarcable en cuanto al uso de la factoría: ####
 
-Si antes decíamos que crear uno cada vez esta mal y que crearlos de manera *“estática”* tambien esta mal ¿Como y que hace esta factoría?
+Si antes decíamos que crear uno cada vez esta mal y que crearlos de manera *“estática”* tambien esta mal ¿Cómo y qué hace esta factoría?
 
-La respuesta es que cada vez que se obtiene un objeto **HttpClient** de la factoría **IHttpClientFactory**, esta devuelve una instancia nueva. Pero todas estas instancias usan un controlador que las agrupa del tipo **IHttpMessageHandler** y que es el encargado de reducir y optimizar el uso de los recursos a la hora de que nuestras instancias se comuniquen con los recursos externos y por tanto abstraernos de los problemas antes mencionados.
+La respuesta es que cada vez que se solicita un objeto **HttpClient** de la factoría **IHttpClientFactory** mediante Inyector de Dependencias, esta devuelve una instancia nueva. La clave para manejarlas es todas estas instancias usan un controlador que las agrupa del tipo **IHttpMessageHandler** y que es el encargado de reducir y optimizar el uso de los recursos a la hora de que nuestras instancias se comuniquen con los recursos externos y por tanto abstraernos de los problemas antes mencionados.
 
 Este IHttpMessageHandlers que agrupará varias instancias de **HttpClient** asociadas a un servicio concreto tienen un tiempo de refresco de 2 minutos. Después de los cuales renovarán las conexiones de las instancias de **HttpClient** que agrupen.
 Esta configuración es manejable por nosotros si así lo deseamos pero eso llegará mas adelante.
@@ -36,7 +36,7 @@ Y sin mas pasamos a una pequeña parte de código con la que ilustrar el ejemplo
 
 <details> 
   <summary>SPOILER</summary>
-   A1: Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
+   Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
 </details>
 
 Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
