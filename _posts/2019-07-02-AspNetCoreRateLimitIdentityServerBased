@@ -4,7 +4,7 @@ title: AspNetCoreRateLimit con límites basados en claims de identidad
 image: /images/aspnetcore.png
 author: Vicente José Moreno Escobar
 categories: ASP.NET-Core IdentityServer4
-published: false 
+published: true 
 ---
 ![netcore](/images/aspnetcore.png)
 > HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. 
@@ -50,28 +50,18 @@ En este método usaremos HttpContext de de la solicitud para extraer las caracte
 
 <script src="https://gist.github.com/vicentt/92b2466e33826d222f992fe2dcac3564.js"></script>
 
+Por otra parte vamos a crear un middleware en el cual interceptaremos cada request para comprobar los límites e incrementarlos si es necesario. 
 
-<details> 
-  <summary>SPOILER</summary>
-   Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
-</details>
+<script src="https://gist.github.com/vicentt/42d933da8d93b2dd4f4a72222e79112b.js"></script>
 
-Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
+Nuestro middleware recibe de DI el requestDelegate que le va a permitir llamar al siguiente middleware, la colección de opciones configuradas en appsettings.json, y el almacén de políticas que utiliza AspNetCoreRateLimit
 
-`services.AddHttpClient();`
+En el método Invoke, en primer lugar, vamos a sacar del HttpContext el Claim Client_Id. 
+Con él vamos a comprobar si en el almacén de políticas de cliente existe una política para este cliente. En caso de que no exista, creamos una estableciendo el límite que sacamos del Claim client_AspNetRateLimit24h y finalmente seteamos esta política. 
+A partir de este momento nuestro cliente podrá hacer las llamadas establecidas en el claim durante las siguientes 24 horas.
 
-Esta invocación registrara (detras del telon) unos cuantos servicios entre los que está una implementación de IClientFactory
+El objetivo de este post es mostrar un ejemplo funcional de una extensión de AspNetCoreRateLimit. A partir de aquí y según las necesidades de nuestro proyecto podemos imaginar múltiples escenarios de uso.
 
-En nuestro ValuesController lo usaremos así:
-
-<script src="https://gist.github.com/vicentt/09872bd8e3f892b4238c9b3ae823dcd7.js"></script>
-
-Aquí estamos añadiendo una dependencia a IHttpClientFactory en nuestro constructor que será inyectada por el sistema de inyección de dependencias. Con IHttpClientFactory que nos es inyectada podemos pedir nuevos HttpClients.
-
-En nuestra acción Get estamos usando HttpClientFactory para crear un nuevo cliente y a partir de aquí podremos hacer uso de él.
-
-En siguientes post veremos maneras mas avanzadas de usar esta factoría asi como las cosas tan interesantes que nos permite realizar.
-
-[Docu Microsoft](https://docs.microsoft.com/es-es/dotnet/standard/microservices-architecture/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
+Cualquier sugerencia, crítica o duda será recibida con anímo y alborozo.
 
 
