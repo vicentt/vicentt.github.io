@@ -39,9 +39,16 @@ Gracias a una de las grandes evoluciones que nos trae .Net Core que es la facili
 
 En las propias instrucciones de implementación del proyecto Stefan nos indica cómo podemos hacerlo.
 
-Para conseguir nuestro objetivo debemos proveer a la librería de una manera de identificar al objeto de limitación. En este caso va a ser el cliente(clientId) pero podríamos utilizar otros criterios
-Esto vamos a hacerlo vamos a hacerlo proveyendo a la librería de una configuración creada por nosotros para tal efecto.
+Para conseguir nuestro objetivo debemos proveer AspNetCoreRateLimits de una manera de identificar al objeto de limitación. En este caso va a ser el cliente(clientId) pero podríamos utilizar otros criterios
+Esto vamos a hacerlo proveyendo a la librería de una configuración creada por nosotros para tal efecto.
 
+<script src="https://gist.github.com/vicentt/1c0af52924285866a0a6f3b01f6beacc.js"></script>
+
+Utilizamos IHttpContextAccessor inyectado mediante DI en startup.cs y se lo pasamos a una clase llamada IdentityResolveContributor. En esta clase existe un método ResolveClient descrito en la interface IClientResolveContributor de AspNetCoreRateLimits que será el usado por la librería para obtener la identidad en la que se basarán las políticas de límites. 
+
+En este método usaremos HttpContext de de la solicitud para extraer las características(Claims) del cliente que se ha identificado. En este caso usaremos el Client_Id que es el claim que se usa en ClientCredentials para identificar al cliente. En caso de que no tengamos cliente identificado, devolvemos “anon”.
+
+<script src="https://gist.github.com/vicentt/92b2466e33826d222f992fe2dcac3564.js"></script>
 
 
 <details> 
