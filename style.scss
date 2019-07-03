@@ -196,7 +196,7 @@ img {
 
   @include mobile {
     float: none;
-    display: block;
+    display: qu;
     margin: 0 auto;
   }
 
@@ -281,7 +281,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #3C3C3B;
     font-size: 22px;
     font-style: italic;
   }
@@ -315,8 +315,8 @@ footer {
 .button {
 	background-color: #fff;
 	border-radius: 6px;
-	border: 1px solid #13AFDF;
-	color: #000;
+	border: 1px solid #1446A0;
+	color: #3C3C3B;
 	cursor: pointer;
 	font-size: 16px;
 	padding: 14px 20px;
@@ -325,6 +325,6 @@ footer {
 	width: auto;
 }
 .button:hover {
-	background-color: #13AFDF;
-	color: #fff;
+	background-color: #1446A0;
+	color: #EBEBD3;
 }
