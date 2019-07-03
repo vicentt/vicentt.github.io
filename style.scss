@@ -26,8 +26,8 @@ body {
 .container {
 
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 750px;
+  
   width: 100%;
 }
 
@@ -48,6 +48,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
+    color: inherit;
+	  color: #EBF5EE;
+    font-weight: 600;
+  }
+	a:active {
     color: inherit;
 	  color: #EBF5EE;
     font-weight: 600;
@@ -156,7 +161,7 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
     background-color: #DB3069;
-    border-bottom: #BFD1E5 20px solid;
+        border-bottom: 13px solid #F5D547;
 }
 
 .masthead {
