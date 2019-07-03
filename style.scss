@@ -175,7 +175,7 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
     background-color: #DB3069;
-            border-bottom: 13px solid #BFD1E5;
+            border-bottom: 3px solid #BFD1E5;
 }
 
 .masthead {
@@ -298,9 +298,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 3px solid #BFD1E5;
+  border-bottom: 3px solid #BFD1E5;
+  background-color: #DB3069;
 }
 
 footer {
