@@ -49,6 +49,8 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
+	  color: #EBF5EE;
+    font-weight: 600;
   }
 }
 
@@ -153,7 +155,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #eee;
+    background-color: #DB3069;
+    border-bottom: #BFD1E5 20px solid;
 }
 
 .masthead {
@@ -169,7 +172,7 @@ img {
  float: left;
   width: 70px;
   height: 70px;
-  margin-right: 100px;
+  margin-right: 20px;
 
   @include mobile {
     float: none;
@@ -204,8 +207,8 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  color: #BFD1E5;
+  font-size: 20px;
 
   @include mobile {
     margin: 3px 0;
