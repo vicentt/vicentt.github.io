@@ -54,7 +54,7 @@ h1 {
   }
 	a:hover {
     color: inherit;
-	  color: #1446A0;
+	  color: #3C3C3B;
     font-weight: 600;
   }
 }
@@ -192,7 +192,7 @@ img {
  float: left;
   width: 70px;
   height: 70px;
-  margin-right: 20px;
+  margin-right: 12px;
 
   @include mobile {
     float: none;
