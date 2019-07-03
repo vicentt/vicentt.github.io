@@ -7,7 +7,7 @@ categories: ASP.NET-Core IdentityServer4
 published: true 
 ---
 ![netcore](/images/aspnetcore.png)
-> HttpClientFactory es una fábrica bien fundamentada, disponible desde .NET Core 2.1, para crear instancias de HttpClient con el fin de usarlas en las aplicaciones. 
+> Extendiendo la librería AspNetCoreRateLimits para establecer límites de request basados en claims de la identidad del usuario
 
 #### Conociendo le problema y su solución: ####
 
