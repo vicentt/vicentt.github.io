@@ -92,3 +92,5 @@ paginate_path: "/blog/page:num/"
 twitter:
   username: vjmoreno_madrid
   card: summary_large_image
+
+theme: jekyll-theme-architect
