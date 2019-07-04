@@ -6,7 +6,7 @@ author: Vicente José Moreno Escobar
 categories: ASP.NET-Core IdentityServer4
 published: true 
 ---
-![netcore](/images/aspnetcore.png)
+![netcore](/images/ratelimitsIS.jpg)
 > Extendiendo la librería AspNetCoreRateLimits para establecer límites de request basados en claims de la identidad del usuario
 
 #### Conociendo le problema y su solución: ####
