@@ -11,7 +11,7 @@ published: true
 
 #### Conociendo le problema y su solución: ####
 
-En muy habitual que en el desarrollo de APIs modernas necesitemos **establecer límites sobre las solicitudes que son realizadas por un cliente.**
+Es habitual que en el desarrollo de APIs modernas necesitemos **establecer límites sobre las solicitudes que son realizadas por un cliente.**
 Ya sea por necesidades de negocio o para estar a salvo de hotlinkers o de atacantes debemos proteger siempre nuestras APIs con alguna solución de límite de solicitudes.
 
 Atendiendo a esta necesidad existen múltiples opciones que podemos implementar. Una de ellas es la que presento hoy y a la que voy a intentar dar un cuarto de vuelta. 
