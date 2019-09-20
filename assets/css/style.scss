@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "svg-icons";
 
 .widget_sp_image img {
     border-radius: 50%;
@@ -24,26 +25,4 @@
   footer {
     padding: 20px 0;
     text-align: center;
-  }
-  
-  // Settled on moving the import of syntax highlighting to the bottom of the CSS
-  // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-  @import "highlights";
-  @import "svg-icons";
-  .button {
-      background-color: #fff;
-      border-radius: 6px;
-      border: 1px solid #13AFDF;
-      color: #000;
-      cursor: pointer;
-      font-size: 16px;
-      padding: 14px 20px;
-      text-align: center;
-      text-transform: uppercase;
-      width: auto;
-  }
-  .button:hover {
-      background-color: #13AFDF;
-      color: #fff;
-  }
-  
+  }  
