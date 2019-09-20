@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -61,14 +61,8 @@
     <div class="wrapper-footer">
             <div class="container">
                 <footer class="footer">
-                    <h4><a href="{{ site.baseurl }}/archive/">Archivasdfo</a></h4>
-                    <a href="mailto:{{ site.footer-links.email }}"><i class="svg-icon email"></i></a>
-                    <a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>
-                    <a href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="svg-icon instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>
-                    <a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>
-                    <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
-                    <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>
+                    <h4><a href="{{ site.baseurl }}/archive/">Archivo</a></h4>
+                    {% include svg-icons.html %}
                 </footer>
             </div>
         </div>
