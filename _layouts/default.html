@@ -19,10 +19,10 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1><a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> {{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>
-                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> {{ site.description | default: site.github.project_tagline }}</h2>
+        {{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
@@ -58,6 +58,14 @@
         </aside>
       </div>
     </div>
+    <div class="wrapper-footer">
+            <div class="container">
+                <footer class="footer">
+                    <h4><a href="{{ site.baseurl }}/archive/">Archivo</a></h4>
+                    {% include svg-icons.html %}
+                </footer>
+            </div>
+        </div>
 
     {% if site.google_analytics %}
       <script>
