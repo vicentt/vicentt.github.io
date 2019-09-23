@@ -14,6 +14,7 @@ En mi post [HttpClientFactory de Asp.Net Core 2.1 (Introducción)](https://vicen
 #### Clientes con nombre(Named Clients): ####
 
 Es el tipo de cliente usado en el primer post de esta serie.
+
 Con un cliente con nombre, podremos establecer ciertas caracteristicas para nuestros clientes en la ConfigureServices usando services.AddHttpClient()
 Gracias a que hemos nombrado nuestro cliente, podremos acceder a él en disintas partes de nuestro código usando su nombre y sus caracteristicas vendrán con él. Evidentemente podremos registrar todos los clientes con nombre que queramos siempre y cuando su nombre sea único.
 
