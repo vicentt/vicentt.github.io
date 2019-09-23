@@ -43,6 +43,8 @@ Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección d
 
 `services.AddHttpClient();`
 
+<script src="https://gist.github.com/vicentt/70c41f3c1d779dec64da48654879dc95.js"></script>
+
 Esta invocación registrara (detras del telon) unos cuantos servicios entre los que está una implementación de IClientFactory
 
 En nuestro ValuesController lo usaremos así:
