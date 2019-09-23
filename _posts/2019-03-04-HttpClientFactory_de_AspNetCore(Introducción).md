@@ -38,6 +38,7 @@ Y sin mas pasamos a una pequeña parte de código con la que ilustrar el ejemplo
   <summary>SPOILER</summary>
    Casi seguro que nunca la vas a usar de esta manera que te voy a contar.
 </details>
+<br>
 
 Registraremos un servicio de tipo **IHttpClientFactory** en nuestra colección de servicios que representa nuestro Inyector de Dependencias mediante: 
 
