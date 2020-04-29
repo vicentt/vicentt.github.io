@@ -4,6 +4,12 @@
 @import "{{ site.theme }}";
 @import "svg-icons";
 
+
+.bio
+{
+    margin-top: 10px;
+}
+
 .widget_sp_image img {
     border-radius: 50%;
     width: 150px;
