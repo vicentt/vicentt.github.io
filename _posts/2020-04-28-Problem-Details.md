@@ -6,6 +6,7 @@ author: Vicente José Moreno Escobar
 categories: ASP.NET-Core 3.1
 published: true 
 ---
+> La solución que estabas esperando para estandarizar las respuestas no existosas de tu Api Http
 ![code](/images/codeMan.jpg)
 
 # Un poco de Background  💻
