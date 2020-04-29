@@ -8,19 +8,23 @@ published: true
 ---
 ![code](/images/codeMan.jpg)
 
-## Un poco de Background  💻
+# Un poco de Background  💻
 
 Si alguna vez te has visto envuelto en el desarrollo de una Api HTTP sabrás que una parte crucial y que a veces puede dar bastante trabajo, es la devolución estandarizada de códigos HTTP no exitosos. 
-Elegir la estrategia y mantenerla durante todo el desarrollo. ¿devuelvo el código sin mas contenido?
+Elegir la estrategia y mantenerla durante todo el desarrollo.
 
- -> ¿devuelvo el código sin mas contenido?
- -> Probablemente te estas quedando corto y estás haciendo que tu Api sea dificil de utilizar
+4. And another item.
 
- -> ¿devuelvo una excepción?
- -> No es buena idea ya que no es estandar, enseñas demasiado de las "tripas" de tu API y debes gestionar excepciones para casos que en las que no aplican como un 401 o un 403
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
- -> ¿Uso una solución propia que personalice en cada caso?
- -> Vas  a tener mucho trabajo a la hora de gestionar y personalizar los objetos que representan las respuestas. Va a ser código que vas a tener que mantener. Vas a tener que exponer ese modelo que tampoco es estandar y que probablemente en algun momento o en algun caso no sea del agrado de tus clientes o consumidores. 
+* ¿Devuelvo el código HTTP sin mas contenido?
+⋅⋅⋅Probablemente te estas quedando corto y estás haciendo que tu Api sea dificil de utilizar
+
+* ¿devuelvo una excepción?
+⋅⋅⋅No es buena idea ya que no es estandar, enseñas demasiado de las "tripas" de tu API y debes gestionar excepciones para casos que en las que no aplican como un 401 o un 403
+
+* ¿Uso una solución propia que personalice en cada caso?
+⋅⋅⋅Vas  a tener mucho trabajo a la hora de gestionar y personalizar los objetos que representan las respuestas. Va a ser código que vas a tener que mantener. Vas a tener que exponer ese modelo que tampoco es estandar y que probablemente en algun momento o en algun caso no sea del agrado de tus clientes o consumidores. 
 
  La cuestión es que este problema común está abordado en una especificación desde hace algún tiempo:
  Esta especificación es: [RFC 7807 Problem Details for HTTP APIs ](https://tools.ietf.org/html/rfc7807)
@@ -35,7 +39,7 @@ Elegir la estrategia y mantenerla durante todo el desarrollo. ¿devuelvo el cód
 }
 ```
 
-## Problem Details en .Net 🍕
+# Problem Details en .Net 🍕
 
 El equipo de .Net a incluido una implementación de esta especificación en la clase: [ProblemDetails](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.problemdetails?view=aspnetcore-2.2)
 
@@ -102,7 +106,7 @@ public ActionResult UpdateProduct(Product model)
  ```
 
  
-## Hellang.Middleware.ProblemDetails ✅
+# Hellang.Middleware.ProblemDetails ✅
 
 Ahora que ya sabemos lo que es y como usar ProblemDetails vamos a conocer una implementación que hará las delicias de los amantes del "Keep It Simple".
 Gracias a [Hellang.Middleware.ProblemDetails](https://www.nuget.org/packages/Hellang.Middleware.ProblemDetails) vamos a utilizar todo el potencial de ProblemDetails con solo algunas lineas de código.
@@ -133,4 +137,4 @@ Como suele ser habitual, existen múltiples opciones de configuración y persona
 
 Os invito a pasaros por el Repo de GitHub para descubrirlas [GitHub Hellang.Middleware.ProblemDetails](https://github.com/khellang/Middleware) 
 
-🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 
+🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹  🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 
