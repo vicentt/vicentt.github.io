@@ -8,7 +8,7 @@ published: true
 ---
 ![code](/images/codeMan.jpg)
 
-#### Un poco de Background ####
+## Un poco de Background  💻
 
 Si alguna vez te has visto envuelto en el desarrollo de una Api HTTP sabrás que una parte crucial y que a veces puede dar bastante trabajo, es la devolución estandarizada de códigos HTTP no exitosos. 
 Elegir la estrategia y mantenerla durante todo el desarrollo. ¿devuelvo el código sin mas contenido?
@@ -35,7 +35,7 @@ Elegir la estrategia y mantenerla durante todo el desarrollo. ¿devuelvo el cód
 }
 ```
 
-#### Problem Details en .Net ####
+## Problem Details en .Net 🍕
 
 El equipo de .Net a incluido una implementación de esta especificación en la clase: [ProblemDetails](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.problemdetails?view=aspnetcore-2.2)
 
@@ -102,7 +102,7 @@ public ActionResult UpdateProduct(Product model)
  ```
 
  
-#### Hellang.Middleware.ProblemDetails ####
+## Hellang.Middleware.ProblemDetails ✅
 
 Ahora que ya sabemos lo que es y como usar ProblemDetails vamos a conocer una implementación que hará las delicias de los amantes del "Keep It Simple".
 Gracias a [Hellang.Middleware.ProblemDetails](https://www.nuget.org/packages/Hellang.Middleware.ProblemDetails) vamos a utilizar todo el potencial de ProblemDetails con solo algunas lineas de código.
@@ -133,5 +133,4 @@ Como suele ser habitual, existen múltiples opciones de configuración y persona
 
 Os invito a pasaros por el Repo de GitHub para descubrirlas [GitHub Hellang.Middleware.ProblemDetails](https://github.com/khellang/Middleware) 
 
-
-
+🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 🍺 🍹 
