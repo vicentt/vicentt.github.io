@@ -1,12 +1,12 @@
 ---
 layout: post
 title: HTTP API Problem Details en ASP.NET Core
-image: /images/codeman.jpg
+image: /images/codeMan.jpg
 author: Vicente José Moreno Escobar
 categories: ASP.NET-Core 3.1
 published: true 
 ---
-![code](/images/codeman.jpg)
+![code](/images/codeMan.jpg)
 
 #### Un poco de Background ####
 
