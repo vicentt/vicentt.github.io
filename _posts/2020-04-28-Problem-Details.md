@@ -109,7 +109,7 @@ Gracias a [Hellang.Middleware.ProblemDetails](https://www.nuget.org/packages/Hel
 
 Despues de instalar el paquete en nuestro proyecto, solo tendremos que añadir el middleware a nuestro Pipeline para que la librería empiece a trabajar:
  
- ```C#
+ ```c#
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddProblemDetails(ConfigureProblemDetails)
