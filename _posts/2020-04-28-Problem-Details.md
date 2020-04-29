@@ -13,17 +13,13 @@ published: true
 Si alguna vez te has visto envuelto en el desarrollo de una Api HTTP sabrás que una parte crucial y que a veces puede dar bastante trabajo, es la devolución estandarizada de códigos HTTP no exitosos. 
 Elegir la estrategia y mantenerla durante todo el desarrollo.
 
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-* ¿Devuelvo el código HTTP sin mas contenido?
+* **¿Devuelvo el código HTTP sin mas contenido?**
 ⋅⋅⋅Probablemente te estas quedando corto y estás haciendo que tu Api sea dificil de utilizar
 
-* ¿devuelvo una excepción?
+* **¿devuelvo una excepción?**
 ⋅⋅⋅No es buena idea ya que no es estandar, enseñas demasiado de las "tripas" de tu API y debes gestionar excepciones para casos que en las que no aplican como un 401 o un 403
 
-* ¿Uso una solución propia que personalice en cada caso?
+* **¿Uso una solución propia que personalice en cada caso?**
 ⋅⋅⋅Vas  a tener mucho trabajo a la hora de gestionar y personalizar los objetos que representan las respuestas. Va a ser código que vas a tener que mantener. Vas a tener que exponer ese modelo que tampoco es estandar y que probablemente en algun momento o en algun caso no sea del agrado de tus clientes o consumidores. 
 
  La cuestión es que este problema común está abordado en una especificación desde hace algún tiempo:
