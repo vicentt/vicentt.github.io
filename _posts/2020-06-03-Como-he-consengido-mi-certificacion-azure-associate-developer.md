@@ -6,8 +6,8 @@ author: Vicente José Moreno Escobar
 categories: Certificaciones 
 published: true 
 ---
-![code](/images/azure-developer-associate-600x600.png)
-> La solución que estabas esperando para estandarizar las respuestas no existosas de tu Api Http
+![Azure Developer](/images/azure-developer-associate-600x600.png)
+> Mi camino hasta obtener esta certificación
 
 Me alegra mucho compartir que he passado el examen [AZ-203: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-203) de [Microsoft](https://www.microsoft.com/) obteniendo con él la certificación [Microsoft Certified: Azure Developer Associate](https://www.youracclaim.com/badges/c63279e5-a75c-425c-9b16-ca4b475b8cce/embedded)
 
@@ -43,12 +43,12 @@ De todas las materias cubiertas, las que mas me han gustado y las que creo que h
 
 Tambien en la página de la certificación podemos encotrar sugerencias sobre como preparar la certificación. La compañía nos ofrece mucho material de acceso libre, muy bien trabajado y estucturado. Tambien ellos mismos nos ofrecen opciones de pago con tutores online etc. Todas muy interesantes. 
 
-![code](/images/AZ204CertCaptura1.png)
+![Microsoft Education](/images/AZ204CertCaptura1.png)
 
 En mi caso, utilicé algunos de los recuros que ofrecen. Tambien utilcé recursos como Youtube, artículos de blogs etc.
 Pero sin duda el recurso que me dio el aldabonazo final para sentirme capaz de aprobar fue [PluralSight](https://www.pluralsight.com/). PluralSight es una plataforma de E-Lerning centrada en IT que ofrece cursos en video extraordinariamente bien planteados y organizados. Algún equivalente puede ser Linux Academy, Udemi etc. 
 
-![code](/images/AZ204-PluralCap.png)
+![PluralSiht](/images/AZ204-PluralCap.png)
 
 
 # Examen desde casa con Pearson Vue
