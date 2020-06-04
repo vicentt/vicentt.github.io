@@ -6,7 +6,7 @@ author: Vicente José Moreno Escobar
 categories: Certificaciones 
 published: true 
 ---
-![Azure Developer](/images/azure-developer-associate-600x600.png)
+![Azure Developer](/images/azure-developer-associate-690x300.png)
 > Mi camino hasta obtener esta certificación
 
 Me alegra mucho compartir que he passado el examen [AZ-203: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-203) de [Microsoft](https://www.microsoft.com/) obteniendo con él la certificación [Microsoft Certified: Azure Developer Associate](https://www.youracclaim.com/badges/c63279e5-a75c-425c-9b16-ca4b475b8cce/embedded)
