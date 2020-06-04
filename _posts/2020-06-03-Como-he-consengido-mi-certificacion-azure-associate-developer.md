@@ -3,13 +3,13 @@ layout: post
 title: Como he conseguido mi certificación Azure Developer Associate
 image: /images/azure-developer-associate-600x600.png
 author: Vicente José Moreno Escobar
-categories: Certificaciones
-published: false 
+categories: Certificaciones 
+published: true 
 ---
 ![code](/images/azure-developer-associate-600x600.png)
 > La solución que estabas esperando para estandarizar las respuestas no existosas de tu Api Http
 
-Me alegra mucho compartir que he passado el examen AZ-204 de Microsoft obteniendo con él la certificación Microsoft Azure Developer Associate.
+Me alegra mucho compartir que he passado el examen [AZ-203: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-203) de [Microsoft](https://www.microsoft.com/) obteniendo con él la certificación [Microsoft Certified: Azure Developer Associate](https://www.youracclaim.com/badges/c63279e5-a75c-425c-9b16-ca4b475b8cce/embedded)
 
 La idea de este post es explicar muy brevemente en que consiste la certificación, como me preparé para obtenerla y como fué la experiencia de realizar el examen en mi casa mediante las nuevas opciones que ofrece la enteidad certificadora Pearson Vue.
 
