@@ -3,7 +3,7 @@ layout: post
 title: Trucos desplegando WebApp .NetCore 3.1 en un servidor antiguo
 image: /images/Old-Server.png
 author: Vicente José Moreno Escobar
-categories: Certificaciones 
+categories: ASP.NET-Core 
 published: true 
 ---
 ![Old Server](/images/Old-Server.png)
@@ -39,9 +39,11 @@ Aunque creíamos que nos habíamos despedido para siempre del fichero web.config
 
 Una vez publicada la aplicación debemos editar el fichero web.config para cambiar el valor 
 
-` modules="AspNetCoreModuleV2" ` 
+`modules="AspNetCoreModuleV2"` 
+
 por 
-` modules="AspNetCoreModule" `
+
+`modules="AspNetCoreModule"`
 
 
 
