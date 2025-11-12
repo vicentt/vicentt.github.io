@@ -1,12 +1,10 @@
 ---
 layout: post
 title: React Native 0.73 - Debugging mejorado y nuevas arquitecturas por defecto
-image: /images/codeMan.jpg
 author: Vicente José Moreno Escobar
 categories: [React Native, Mobile, JavaScript]
 published: true
 ---
-![React Native 0.73](/images/codeMan.jpg)
 
 > React Native 0.73 marca un antes y después en el debugging de aplicaciones móviles
 

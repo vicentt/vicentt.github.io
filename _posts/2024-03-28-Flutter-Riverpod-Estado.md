@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Flutter y Riverpod - Gestión de estado que realmente funciona
-image: https://via.placeholder.com/1200x630/0175C2/FFFFFF?text=Flutter+%26+Riverpod
 author: Vicente José Moreno Escobar
 categories: [Flutter, Mobile, State Management]
 published: true
 ---
-![Flutter Riverpod](https://via.placeholder.com/1200x630/0175C2/FFFFFF?text=Flutter+%26+Riverpod)
 
 > Después de probar Provider, Bloc y GetX, Riverpod es mi elección definitiva para Flutter
 

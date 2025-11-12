@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Minimal APIs en .NET 8 - Nuevas capacidades que debes conocer
-image: /images/aspnetcore.png
 author: Vicente José Moreno Escobar
 categories: [.NET, ASP.NET-Core, APIs]
 published: true
 ---
-![.NET 8](/images/aspnetcore.png)
 
 > .NET 8 trae mejoras significativas a las Minimal APIs que las hacen aún más potentes
 

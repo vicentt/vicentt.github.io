@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Azure Container Apps en producción - Lecciones aprendidas
-image: /images/azure-developer-associate-600x600.png
 author: Vicente José Moreno Escobar
 categories: [Azure, Containers, DevOps]
 published: true
 ---
-![Azure Container Apps](/images/azure-developer-associate-600x600.png)
 
 > Mi experiencia llevando Azure Container Apps a un entorno de producción real
 

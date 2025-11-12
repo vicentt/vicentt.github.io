@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Optimizando WordPress para alto tráfico - Guía práctica desde trincheras
-image: https://via.placeholder.com/1200x630/21759B/FFFFFF?text=WordPress+Performance+Optimization
 author: Vicente José Moreno Escobar
 categories: [WordPress, PHP, Performance]
 published: true
 ---
-![WordPress Performance](https://via.placeholder.com/1200x630/21759B/FFFFFF?text=WordPress+Performance+Optimization)
 
 > Cómo pasé un sitio WordPress de 2s a 300ms de carga sin cambiar de hosting
 

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: C# 12 Primary Constructors - Simplificando clases y records
-image: https://via.placeholder.com/1200x630/512BD4/FFFFFF?text=C%23+12+Primary+Constructors
 author: Vicente José Moreno Escobar
 categories: [C#, .NET, Programming]
 published: true
 ---
-![C# 12](https://via.placeholder.com/1200x630/512BD4/FFFFFF?text=C%23+12+Primary+Constructors)
 
 > C# 12 trae Primary Constructors a clases normales, no solo records. Y cambia mucho.
 
