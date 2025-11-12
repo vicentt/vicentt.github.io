@@ -14,9 +14,9 @@ published: true
       </a>
     </div>
   {% endif %}
-  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <h1 style="margin-top: 15px; margin-bottom: 10px;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-  <div class="post-meta" style="margin-bottom: 15px; color: #666; font-size: 14px;">
+  <div class="post-meta" style="margin-bottom: 20px; color: #6b7280; font-size: 14px; padding-bottom: 15px; border-bottom: 1px solid #f3f4f6;">
     <span class="post-date">
       <i class="far fa-calendar"></i>
       {{ post.date | date: '%-d' }} de
@@ -58,14 +58,14 @@ published: true
 
 <!-- Pagination links -->
 
-<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
+<div class="pagination">
   {% if paginator.previous_page %}
-    <a class="button" style="font-size: 12px;" title="Ve a la página anterior" href="{{ paginator.previous_page_path }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Página previa</a>
+    <a class="button" style="font-size: 14px;" title="Ve a la página anterior" href="{{ paginator.previous_page_path }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Página previa</a>
   {% endif %}
-  <span class="page_number ">
-    &nbsp;&nbsp;&nbsp;&nbsp;Página {{ paginator.page }} de {{ paginator.total_pages }}
+  <span class="page_number">
+    Página {{ paginator.page }} de {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Ve a la página siguiente" href="{{ paginator.next_page_path }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Página posterior</a>
+    <a class="button" style="font-size: 14px;" title="Ve a la página siguiente" href="{{ paginator.next_page_path }}">Página posterior&nbsp;<span class="fas fa-chevron-circle-right"></span></a>
   {% endif %}
 </div>
