@@ -57,20 +57,25 @@ h1,
   border-bottom: 2px solid #e5e7eb !important;
 }
 
-// Buttons
+// Buttons - Simple link style
 .button {
-  background-color: #1446A0 !important;
-  border: 2px solid #1446A0 !important;
-  color: #ffffff !important;
+  background: none !important;
+  border: none !important;
+  color: #1446A0 !important;
   font-weight: 600 !important;
-  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+  padding: 0 !important;
+  display: inline !important;
 }
 
 .button:hover {
-  background-color: #2563eb !important;
-  border-color: #2563eb !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(20, 70, 160, 0.4);
+  color: #2563eb !important;
+  background: none !important;
+  border: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  text-decoration: underline !important;
 }
 
 // Pagination
