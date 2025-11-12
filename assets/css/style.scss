@@ -1,30 +1,50 @@
 @import "{{ site.theme }}";
 
-// Custom styles override
-#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
+/* ==========================================================================
+   CUSTOM STYLES - Override theme
+   ========================================================================== */
+
+/* Typography overrides */
+body,
+#main-content,
+#main-content p,
+.inner {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  line-height: 1.6 !important;
+}
+
+/* Headings overrides */
+h1, h2, h3, h4, h5, h6,
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6,
+.posts h1,
+.post h1 {
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700 !important;
   letter-spacing: -0.5px !important;
   line-height: 1.3 !important;
 }
 
-#main-content h1 {
+h1,
+#main-content h1,
+.posts h1,
+.post h1 {
   font-size: 32px !important;
   font-weight: 800 !important;
 
   a {
     color: #1446A0 !important;
     font-weight: 800 !important;
+    text-decoration: none !important;
   }
 
   a:hover {
     color: #2563eb !important;
   }
-}
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-  line-height: 1.6 !important;
 }
 
 // Posts separation
