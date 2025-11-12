@@ -318,10 +318,10 @@ footer {
 @import "highlights";
 @import "svg-icons";
 .button {
-	background-color: #fff;
+	background-color: #1446A0;
 	border-radius: 6px;
 	border: 2px solid #1446A0;
-	color: #3C3C3B;
+	color: #ffffff;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -333,10 +333,11 @@ footer {
 	display: inline-block;
 }
 .button:hover {
-	background-color: #1446A0;
-	color: #EBEBD3;
+	background-color: #2563eb;
+	border-color: #2563eb;
+	color: #ffffff;
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(20, 70, 160, 0.3);
+	box-shadow: 0 4px 12px rgba(20, 70, 160, 0.4);
 }
 
 // Pagination styles
