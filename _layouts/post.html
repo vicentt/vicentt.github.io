@@ -3,7 +3,47 @@ layout: default
 ---
 
 <article class="post">
+  {% if page.image %}
+    <div class="post-header-image" style="margin-bottom: 20px;">
+      <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto; border-radius: 4px;">
+    </div>
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
+
+  <div class="post-meta" style="margin-bottom: 20px; padding: 15px 0; border-bottom: 1px solid #eee;">
+    <div style="color: #666; font-size: 14px; margin-bottom: 10px;">
+      <i class="far fa-calendar"></i>
+      {{ page.date | date: '%-d' }} de
+      {% assign m = page.date | date: '%-m' %}
+      {% case m %}
+        {% when '1' %}enero
+        {% when '2' %}febrero
+        {% when '3' %}marzo
+        {% when '4' %}abril
+        {% when '5' %}mayo
+        {% when '6' %}junio
+        {% when '7' %}julio
+        {% when '8' %}agosto
+        {% when '9' %}septiembre
+        {% when '10' %}octubre
+        {% when '11' %}noviembre
+        {% when '12' %}diciembre
+      {% endcase %}
+      de {{ page.date | date: '%Y' }}
+      <span style="margin-left: 10px;">Por {{ page.author }}</span>
+    </div>
+
+    {% if page.categories.size > 0 %}
+    <div class="post-categories" style="margin-top: 10px;">
+      <i class="fas fa-tags"></i>
+      {% for category in page.categories %}
+        <a href="{{site.baseurl}}/categories/{{category|slugize}}" class="category-tag" style="display: inline-block; background: #e8e8e8; padding: 4px 12px; margin: 3px 3px; border-radius: 3px; text-decoration: none; font-size: 13px; color: #333; transition: background 0.3s;">{{category}}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
   <div class="entry">
     {{ content }}
   </div>

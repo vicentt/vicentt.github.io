@@ -7,7 +7,47 @@ published: true
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <article class="post">
+  {% if post.image %}
+    <div class="post-image">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="max-width: 100%; height: auto; margin-bottom: 20px; border-radius: 4px;">
+      </a>
+    </div>
+  {% endif %}
   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+  <div class="post-meta" style="margin-bottom: 15px; color: #666; font-size: 14px;">
+    <span class="post-date">
+      <i class="far fa-calendar"></i>
+      {{ post.date | date: '%-d' }} de
+      {% assign m = post.date | date: '%-m' %}
+      {% case m %}
+        {% when '1' %}enero
+        {% when '2' %}febrero
+        {% when '3' %}marzo
+        {% when '4' %}abril
+        {% when '5' %}mayo
+        {% when '6' %}junio
+        {% when '7' %}julio
+        {% when '8' %}agosto
+        {% when '9' %}septiembre
+        {% when '10' %}octubre
+        {% when '11' %}noviembre
+        {% when '12' %}diciembre
+      {% endcase %}
+      de {{ post.date | date: '%Y' }}
+    </span>
+
+    {% if post.categories.size > 0 %}
+    <span class="post-categories" style="margin-left: 15px;">
+      <i class="fas fa-tags"></i>
+      {% for category in post.categories %}
+        <a href="{{site.baseurl}}/categories/{{category|slugize}}" class="category-tag" style="display: inline-block; background: #e8e8e8; padding: 2px 10px; margin: 0 3px; border-radius: 3px; text-decoration: none; font-size: 13px; color: #333;">{{category}}</a>
+      {% endfor %}
+    </span>
+    {% endif %}
+  </div>
+
    <div class="entry">
         {{ post.excerpt }}
    </div>
